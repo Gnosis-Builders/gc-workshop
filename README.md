@@ -1,5 +1,9 @@
 # Gnosis Tutorials
 
+## Video Walkthrough
+
+The video walkthrough of this tutorial can be found [here](https://www.loom.com/share/0686f85999c24aa4b591019ed3ea56d7)
+
 ## Setting Up Forge:
 
 0. Open the terminal of your choice.
@@ -42,7 +46,7 @@ We would be importing an ERC20 token contract from the OpenZeppelin repo, which 
 To install this dependency, use the following command:
 
 ```shell
-forge install @openzeppelin/openzeppelin-contracts
+forge install @openzeppelin/openzeppelin-contracts --no-commit
 ```
 
 You can see all the installed dependencies by navigating to `lib/openzeppelin-contracts`.
@@ -198,7 +202,7 @@ import Token from "./contracts/TestToken.json";
 
 import './App.css';
 
-const tokenAddress = "0x96273AAc53dED55e0cE26E7dd4d834662F163516";
+const tokenAddress = "0x96273AAc53dED55e0cE26E7dd4d834662F163516"; // Change this to your recent deployed token address
 
 function App() {
   const [userAccount, setUserAccount] = useState('');
@@ -271,12 +275,13 @@ function App() {
 export default App;
  
 ```
-    
-2. Now, you have to go back to the ERC20 folder where you created and deployed your token contract using Forge.
-3. There you'll see `out/Token.sol/TestToken.json`. Open that file and copy the json file.
-4. Come back to your frontend folder, create a new folder called `contracts` under the `src` folder.
-5. Now under this `contracts` folder, create a new file called `TestToken.json` and paste the json you copied in step 3.
-6. Run the app using the command:
+
+2. Don't forget to change the `const tokenAddress` to your deployed address
+3. Now, you have to go back to the ERC20 folder where you created and deployed your token contract using Forge.
+4. There you'll see `out/Token.sol/TestToken.json`. Open that file and copy the json file.
+5. Come back to your frontend folder, create a new folder called `contracts` under the `src` folder.
+6. Now under this `contracts` folder, create a new file called `TestToken.json` and paste the json you copied in step 3.
+7. Run the app using the command:
     ```shell
     npm run start
     ```
