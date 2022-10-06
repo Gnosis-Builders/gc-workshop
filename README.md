@@ -294,7 +294,7 @@ export default App;
 5. If both the functions work as expected, you will see a screen like this:
     <img width="1728" alt="Screenshot 2022-10-06 at 5 53 06 PM" src="https://user-images.githubusercontent.com/32522659/194311605-96ecbb82-f19e-4158-b092-51e29cc23f8d.png">
 
---------------------
+----------------------
     
 #### Congratulations!! You just wrote a contract, deployed it on the Gnosis mainnet/testnet and then interacted with the contract using a front end that you created.
 
