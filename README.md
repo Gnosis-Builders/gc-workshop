@@ -33,6 +33,8 @@ forge init
 
 4. You can run `forge build` and then `forge test` to see whether the defaults are working correctly or not.
 
+<img width="1728" alt="Screenshot 2022-10-05 at 5 40 16 PM" src="https://user-images.githubusercontent.com/32522659/194057375-68d9d541-4b0c-47d9-bbfd-79061c3bf21d.png">
+
 ## Importing dependecies
 
 We would be importing an ERC20 token contract from the OpenZeppelin repo, which is the most used and standard repository used across the Solidity development ecosystem.
@@ -40,8 +42,7 @@ We would be importing an ERC20 token contract from the OpenZeppelin repo, which 
 To install this dependency, use the following command:
 
 ```shell
-forge install @openzeppelin/openzeppelin-contracts<img width="1728" alt="Screenshot 2022-10-05 at 5 40 16 PM" src="https://user-images.githubusercontent.com/32522659/194057375-68d9d541-4b0c-47d9-bbfd-79061c3bf21d.png">
-
+forge install @openzeppelin/openzeppelin-contracts
 ```
 
 You can see all the installed dependencies by navigating to `lib/openzeppelin-contracts`.
