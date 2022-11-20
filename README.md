@@ -178,7 +178,7 @@ If things went as expected, you should see something like this:
 0. Create a new folder separate from the one where we working till now.
 1. Create a new react application using the following command: (we are naming the app `erc20-frontend`)
     ```shell
-        npx creat-react-app erc20-frontend
+        npx create-react-app erc20-frontend
     ```
     If things go as expected, you should see a screen as follows:
     
