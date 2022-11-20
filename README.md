@@ -4,7 +4,7 @@
 
 ## Video Walkthrough
 
-The video walkthrough of this tutorial can be found [here](https://www.loom.com/share/0686f85999c24aa4b591019ed3ea56d7)
+The video walkthrough of this tutorial can be found [here](https://www.loom.com/share/0686f85999c24aa4b591019ed3ea56d7) or [on Gnosis Builders YouTube](https://youtu.be/BC71jg8OJx0)
 
 ## Setting Up Forge:
 
