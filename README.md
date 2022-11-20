@@ -4,7 +4,7 @@
 
 ## Video Walkthrough
 
-The video walkthrough of this tutorial can be found [here](https://www.loom.com/share/0686f85999c24aa4b591019ed3ea56d7) or [on Gnosis Builders YouTube](https://youtu.be/BC71jg8OJx0)
+The video walkthrough of this tutorial can be found [here](https://www.loom.com/share/0686f85999c24aa4b591019ed3ea56d7) or on [YouTube Channel of Gnosis Builders](https://youtu.be/BC71jg8OJx0)
 
 ## Setting Up Forge:
 
@@ -41,7 +41,7 @@ forge init
 
 <img width="1728" alt="Screenshot 2022-10-05 at 5 40 16 PM" src="https://user-images.githubusercontent.com/32522659/194057375-68d9d541-4b0c-47d9-bbfd-79061c3bf21d.png">
 
-## Importing dependecies
+## Importing dependencies
 
 We would be importing an ERC20 token contract from the OpenZeppelin repo, which is the most used and standard repository used across the Solidity development ecosystem.
 
