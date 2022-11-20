@@ -175,7 +175,7 @@ If things went as expected, you should see something like this:
     
 ### Creating a new React App
 
-0. Create a new folder separate from the one where we working till now.
+0. Create a new folder separate from the one where we working till now and please update npm version to at least node 14.
 1. Create a new react application using the following command: (we are naming the app `erc20-frontend`)
     ```shell
         npx create-react-app erc20-frontend
